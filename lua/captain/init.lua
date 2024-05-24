@@ -83,7 +83,7 @@ M.hook = function(idx)
     end
   else
     local ffn = vim.fn.expand("%:p")
-    if not string.find(ffn, cwd, 1, true) then return end
+    if not string.find(ffn, vim.fn.getcwd(), 1, true) then return end
     local fn = vim.fn.expand("%")
     local jdx = hooked(cwd, fn)
     if jdx then
