@@ -46,7 +46,7 @@ local get_cwd = function()
   if vim.loop.fs_stat(cwd .. "/.git") then
     local git_branch = vim.fn.system("git branch --show-current"):gsub("%s+", "")
     if git_branch ~= "" then
-      cwd = cwd .. "-" .. git_branch
+      cwd = string.format("%s (%s)", cwd, git_branch)
     end
   end
   return cwd
