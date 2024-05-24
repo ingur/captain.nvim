@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/ingur/captain.nvim/assets/45173070/f32d3dd6-7080-4799-b45c-830ca16107fd"/>
+  <img src="https://github.com/ingur/captain.nvim/assets/45173070/2ce7b19c-3db1-4f2e-8256-1b2f23a3dbe3"/>
 </p>
 
 <h1 align="center">captain.nvim</h1>
