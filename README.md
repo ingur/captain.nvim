@@ -1,5 +1,12 @@
-# captain.nvim
-`captain.nvim` is a tiny plugin that allows for quick switching between files on a per-project basis, with support for Git branch-specific directories, inspired by [Harpoon](https://github.com/ThePrimeagen/harpoon).
+<p align="center">
+  <img src="https://github.com/ingur/captain.nvim/assets/45173070/f32d3dd6-7080-4799-b45c-830ca16107fd"/>
+</p>
+
+<h1 align="center">captain.nvim</h1>
+
+<p align="center">
+  A tiny plugin that allows for quick switching between files on a per-project basis, with support for Git branch-specific directories, inspired by <a href="https://github.com/ThePrimeagen/harpoon">Harpoon</a>
+</p>
 
 ## Installation
 
