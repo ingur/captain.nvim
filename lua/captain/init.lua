@@ -61,11 +61,10 @@ end
 M.info = function()
   local cwd = get_cwd()
   projects[cwd] = projects[cwd] or {}
-  local msg = cwd .. ": { \n"
+  local msg = cwd .. ":"
   for i, fn in pairs(projects[cwd]) do
-    msg = msg .. string.format("  [%s]: %s\n", i, fn)
+    msg = msg .. string.format("\n  [%s]: %s", i, fn)
   end
-  msg = msg .. "}"
   vim.notify(msg, vim.log.levels["INFO"])
 end
 
