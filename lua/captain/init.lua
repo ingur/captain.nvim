@@ -1,7 +1,7 @@
 local M = {}
 
 local config = {
-  path = vim.fn.stdpath("data") .. "/hook_nvim",
+  path = vim.fn.stdpath("data") .. "/captain",
   autowrite = true,
   silent = false,
   git = true,
