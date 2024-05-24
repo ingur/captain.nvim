@@ -5,7 +5,7 @@
 <h1 align="center">captain.nvim</h1>
 
 <p align="center">
-  A tiny plugin that allows for quick switching between files on a per-project basis, with support for Git branch-specific directories, inspired by <a href="https://github.com/ThePrimeagen/harpoon">Harpoon</a>
+  A tiny plugin that allows for quick switching between files on a per-project basis, with support for Git branch-specific directories, inspired by <a href="https://github.com/ThePrimeagen/harpoon">Harpoon</a>.
 </p>
 
 ## Installation
@@ -15,9 +15,7 @@ Install with your favorite package manager. For example, in lazy.nvim:
 { "ingur/captain.nvim" }
 ```
 
-## Setup
-
-Below shows an example config:
+## Example config
 ```lua
 local captain = require('captain')
 
